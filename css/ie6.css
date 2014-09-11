@@ -1,0 +1,9 @@
+/* Expanding box problem  */
+div.item,
+div#logo,
+div#content60,
+div#sidebarleft,
+div#sidebarright
+{
+    overflow:hidden;
+}

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+  <name>FCSINC</name>
+  <creationDate>06/01/2013</creationDate>
+  <author>DxThemes</author>
+  <authorEmail>support@dxthemes.com</authorEmail>
+  <authorUrl>www.dxthemes.com</authorUrl>
+  <copyright>Copyright</copyright>
+  <license>License</license>
+  <version>1.0</version>
+  <description>FCSINC - clean responsive template</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>index.html</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>iepngfix.htc</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>template_preview.png</filename>
+    <filename>component.php</filename>
+    <filename>error.php</filename>
+    <filename>offline.php</filename>
+    <folder>js</folder>
+    <folder>css</folder>
+    <folder>fonts</folder>
+    <folder>html</folder>
+    <folder>images</folder>
+    <folder>img</folder>
+    <folder>language</folder>
+  </files>
+  <positions>
+    <position>topline_fullwidth</position>
+    <position>topline_onehalf_first</position>
+    <position>topline_onehalf_second</position>
+    <position>topline_onethird_first</position>
+    <position>topline_onethird_second</position>
+    <position>topline_onethird_third</position>
+    <position>topline_onefourth_first</position>
+    <position>topline_onefourth_second</position>
+    <position>topline_onefourth_third</position>
+    <position>topline_onefourth_fourth</position>
+    <position>logo_fullwidth</position>
+    <position>logo_onehalf_first</position>
+    <position>position-0</position>
+    <position>position-1</position>
+    <position>logo_onethird_first</position>
+    <position>logo_onethird_second</position>
+    <position>logo_onethird_third</position>
+    <position>logo_onefourth_first</position>
+    <position>logo_onefourth_second</position>
+    <position>logo_onefourth_third</position>
+    <position>logo_onefourth_fourth</position>
+    <position>slider</position>
+    <position>position-2</position>
+    <position>breadcrumbs_onehalf_first</position>
+    <position>breadcrumbs_onehalf_second</position>
+    <position>breadcrumbs_onethird_first</position>
+    <position>breadcrumbs_onethird_second</position>
+    <position>breadcrumbs_onethird_third</position>
+    <position>breadcrumbs_onefourth_first</position>
+    <position>breadcrumbs_onefourth_second</position>
+    <position>breadcrumbs_onefourth_third</position>
+    <position>breadcrumbs_onefourth_fourth</position>
+    <position>position-7</position>
+    <position>position-4</position>
+    <position>position-5</position>
+    <position>position-12</position>
+    <position>position-13</position>
+    <position>position-6</position>
+    <position>position-8</position>
+    <position>position-3</position>
+    <position>belowcontent_fullwidth</position>
+    <position>belowcontent_onehalf_first</position>
+    <position>belowcontent_onehalf_second</position>
+    <position>position-9</position>
+    <position>position-10</position>
+    <position>position-11</position>
+    <position>belowcontent_onefourth_first</position>
+    <position>belowcontent_onefourth_second</position>
+    <position>belowcontent_onefourth_third</position>
+    <position>belowcontent_onefourth_fourth</position>
+    <position>footer_fullwidth</position>
+    <position>footer_onehalf_first</position>
+    <position>footer_onehalf_second</position>
+    <position>footer_onethird_first</position>
+    <position>footer_onethird_second</position>
+    <position>footer_onethird_third</position>
+    <position>footer_onefourth_first</position>
+    <position>footer_onefourth_second</position>
+    <position>footer_onefourth_third</position>
+    <position>footer_onefourth_fourth</position>
+    <position>position-14</position>
+    <position>copyright_onehalf_first</position>
+    <position>copyright_onehalf_second</position>
+    <position>copyright_onethird_first</position>
+    <position>copyright_onethird_second</position>
+    <position>copyright_onethird_third</position>
+    <position>copyright_onefourth_first</position>
+    <position>copyright_onefourth_second</position>
+    <position>copyright_onefourth_third</position>
+    <position>copyright_onefourth_fourth</position>
+    <position>script</position>
+    <position>hidden</position>
+  </positions>
+  <languages folder="language">
+    <language tag="en-GB">en-GB/en-GB.tpl_FCSINC.ini</language>
+    <language tag="en-GB">en-GB/en-GB.tpl_FCSINC.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="logoFile" class="" type="media" default="" label="TPL_FCSINC_LOGO_LABEL" description="TPL_FCSINC_LOGO_DESC" />
+        <field name="sitetitle" type="text" default="" label="JGLOBAL_TITLE" description="JFIELD_ALT_PAGE_TITLE_LABEL" filter="string" />
+        <field name="sitedescription" type="text" default="" label="JGLOBAL_DESCRIPTION" description="JGLOBAL_SUBHEADING_DESC" filter="string" />
+        <field name="html5" type="list" default="1" label="TPL_FCSINC_FIELD_HTML5_LABEL" description="TPL_FCSINC_FIELD_HTML5_DESC" filter="int">
+          <option value="0">TPL_FCSINC_OPTION_XHTML</option>
+          <option value="1">TPL_FCSINC_OPTION_HTML5</option>
+        </field>
+        <field name="content_frontpage" type="radio" default="1" label="TPL_FCSINC_FIELD_CONTENTFRONTPAGE_LABEL" description="TPL_FCSINC_FIELD_CONTENTFRONTPAGE_DESC" class="btn-group" filter="int">
+          <option value="1">JSHOW</option>
+          <option value="0">JHIDE</option>
+        </field>
+        <!--<field name="totop" type="list" default="1"				label="TPL_FCSINC_FIELD_TOTOP_LABEL"				description="TPL_FCSINC_FIELD_TOTOP_DESC"				filter="int">				<option value="1">JYES</option>				<option value="0">JNO</option>			</field>			-->
+      </fieldset>
+    </fields>
+  </config>
+</extension>

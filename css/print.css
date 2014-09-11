@@ -1,0 +1,12 @@
+body.contentpane{
+    text-align: left;
+	margin: 0;
+	background: none;
+}
+body.contentpane p{
+    text-align: justify;
+}
+
+body.contentpane div.item-page {
+	margin:20px;
+}
